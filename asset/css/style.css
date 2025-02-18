@@ -1,0 +1,288 @@
+.img-card{
+    border-radius: 4px;
+}
+.sub{
+    color: gray;
+    font-size: 15pt;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+/* 
+.de{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.de img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+} */
+
+.de h2{
+    position: relative;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: bottom 0,5s ease-in-out;
+}
+.conn::-webkit-scrollbar{
+    display: none;
+}
+.de h2.scroll-in{
+    bottom: 20px;
+}
+.de h2.scroll-out{
+    bottom: -50px;
+}
+.space{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.space2{
+    margin-top: 50px;
+}
+.space3{
+    margin-left: 10px;
+}
+.space4{
+    margin-top: 10px;
+}
+.img{
+    height: 150px;
+    width: auto;
+}
+.title{
+    font-size: 35pt;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 90px;
+}
+.sub-t{
+    font-size: 20pt;
+    color: #0a2463;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.sub-t2{
+    font-size: 11pt;
+    color: gray;
+    text-transform: capitalize;
+}
+/* .conn{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head{
+    text-transform: uppercase;
+    margin-top: 20px;
+} */
+.head{
+    text-transform: uppercase;
+}
+.Capital{
+    text-transform: capitalize;
+
+}
+/* .col-md-3{
+    width: 20%;
+} */
+.ml-1{
+    justify-content: center;
+    display: flex;
+}
+.white{
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+}
+.red{
+    color: red;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.blue{
+    color: blue;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.sub-logo{
+    font-size: 8pt;
+    margin-left: 40px;
+    margin-top: -8px;
+    text-align: center;
+}
+
+.judul1{
+    font-size: 19pt;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subjudul1{
+    font-size: 12pt;
+    color: gray;
+}
+.img-pro{
+    width: 300px;
+}
+.center{
+    text-align: center;
+    width: 100%;
+}
+.blank{
+    color: black;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.uppercase{
+    text-transform: uppercase;
+    
+}
+.img-f{
+    width: 60px;
+}
+.f{
+    background-color: rgb(255, 255, 255);
+}
+.ft{
+    font-size: 20pt;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.ft1{
+    color: white;
+}
+.ft2{
+    color: red;
+}
+.ft3{
+    color: blue;
+}
+.p1{
+    padding-top: 20px;
+}
+.fts{
+    margin-left: 10px;
+}
+.fb{
+    margin-bottom: 20px;
+}
+.link{
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.link-c{
+    color:  #3e92cc;
+    margin-left: 20px;
+}
+.span-s{
+    font-size: 10pt;
+}
+.b{
+    color: white;
+    font-size: 10pt;
+}
+.sc{
+    height: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.scb{
+    height: 35px;
+    width: 30px;
+    padding-left: 25px;
+    margin-top: -2px;
+}
+.c{
+    font-size: 17pt;
+    text-transform: uppercase;
+    color: rgb(11, 11, 197);
+}
+.cs{
+    font-size: 12pt;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+.cs2{
+    font-size: 11pt;
+    color: gray;
+    text-transform: capitalize;
+}
+.nb{
+    font-size: 15pt;
+    color: black;
+}
+.harga{
+    font-size: 13pt;
+    color: black;
+
+}
+.stok{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.mt{
+    margin-top: 10px;
+}
+
+.profile{
+    width: 30px;
+    margin-left: 50px;
+}
+.flex{
+    display: flex;
+}
+.it{
+    width: 100px;
+    height: auto;
+    margin-top: -7px;
+    margin-right: 150px;
+
+}
+body{
+    /* background-color: #3e92cc; */
+}
+ .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        .popup {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
